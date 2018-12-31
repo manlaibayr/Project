@@ -2,7 +2,8 @@
 <div class="user-input-wrapper">
     <button class="btn btn-primary"  routerLink="/form">Add new user</button>
 </div>
-<div  *ngFor="let user of userService.getUsers()">
+
+<div *ngFor="let user of userService.getUsers()">
     <app-user [user]="user"></app-user>
 </div>
 </div>

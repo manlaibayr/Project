@@ -1,15 +1,14 @@
 input {
-    width: 80%;
+    width: 60%;
     border: none;
-    border-top: 2px solid rgba(73, 204, 249, 1.0);
-    border-bottom: 2px solid rgba(73, 204, 249, 1.0);
+    border: 2px solid rgba(73, 204, 249, 1.0);
     margin-right: 10px;
     padding: 5px;
     line-height: 17px;
     margin:10px;
   }
   .dropdown{
-    width: 80%;
+    width: 60%;
     margin-right: 10px;
     padding: 5px;
     line-height: 17px;
@@ -20,13 +19,6 @@ input {
     border-color: blue;
     border-radius: 3px;
     padding: 5px;
-  }
-  
-  input:focus {
-    outline: none;
-    border: none;
-    border-top: 2px solid rgba(73, 204, 249, 1.0);
-    border-bottom: 2px solid rgba(73, 204, 249, 1.0);
   }
 
   .btn {
@@ -55,4 +47,12 @@ input {
   
 .alert{
     color: red;
+    border-color: red;
+}
+.alert-danger{
+    border-color: red;
+}
+
+.label{
+    width: 200px;
 }
