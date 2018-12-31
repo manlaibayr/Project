@@ -1,0 +1,20 @@
+.App {
+    text-align: center;
+  }
+  
+  .user-wrapper {
+    margin: 20px auto 20px auto;
+    width: 50%;
+    min-height: 600px;
+    border: 1px solid rgb(54, 0, 179);
+    padding: 10px;
+  }
+
+  h1{
+      text-align: center;
+      color: blue;
+  }
+  
+  .link{
+      text-decoration: none;
+  }

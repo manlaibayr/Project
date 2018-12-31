@@ -1,0 +1,29 @@
+.user-input-wrapper {
+    margin-bottom: 20px;
+  }
+  .btn {
+    outline: none;
+    box-shadow: none;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    padding: 8px;
+  }
+  
+  .btn-primary {
+    color: rgb(61, 0, 141);
+    border-color: rgb(89, 0, 131);
+    background-color: transparent;
+    cursor:pointer;
+  }
+  
+  .user-wrapper {
+    margin: 20px auto 20px auto;
+    width: 50%;
+    min-height: 600px;
+    border: 1px solid rgb(54, 0, 179);
+    padding: 10px;
+  }
+
+
+  

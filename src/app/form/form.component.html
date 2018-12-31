@@ -1,0 +1,24 @@
+<form (ngSubmit)="onSubmit()" #f="ngForm">
+  <div class="user-wrapper">
+<input type="text" placeholder="firstName" required minlength="1" name="userText" [(ngModel)]="userText" value={{userText}}  #lol = "ngModel">
+<div [hidden]="lol.valid"
+             class="alert alert-danger">Required</div>
+          
+             <input type="text" placeholder="lastName" required minlength="1" name ="lastName" #last = "ngModel" name="lastName" [(ngModel)]="lastName" value={{lastName}}/>
+             <div [hidden]="last.valid"
+             class="alert alert-danger">Required</div>
+             <input type="text" placeholder="Email"  required minlength="1" name="userEmail" #mail = "ngModel" name="userEmail" [(ngModel)]="userEmail" value={{userEmail}}/>
+             <div [hidden]="mail.valid"
+             class="alert alert-danger">Required</div>
+             
+             
+             <div class="dropdown">
+                <select [(ngModel)]="country" #name="ngModel" name ="dropdown">
+                  <option *ngFor="let c of countries" value="{{c}}">{{c}}</option>
+                </select>
+              </div>
+
+
+<button [disabled]="!f.form.valid" class="btn btn-primary" (click)="addzUser()" routerLink="/display">Save</button>
+</div>
+</form>
